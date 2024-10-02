@@ -7,7 +7,7 @@ import Menu from "./components/Menu";
 import About from "./pages/About";
 
 import {
-    HashRouter as Router,
+    BrowserRouter as Router,
     Switch,
     Route,
     withRouter
@@ -24,7 +24,7 @@ const routes = [
 
 function App() {
     return (
-        
+
         <>
             <BackToTop />
             <div className="page-wrap">
